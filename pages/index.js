@@ -23,7 +23,7 @@ export default function Home() {
              target="_blank" 
              rel="noopener noreferrer" 
              style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}
-             title="Let us know on insta how it went, add your best photo - thanks!">
+             title="Let us know on 'insta' how it went, add your best photo - thanks!">
             <img src="/instagram.png" alt="Instagram" width="24" height="24" style={{ marginRight: '8px' }} />
             Message us on Instagram
           </a>
