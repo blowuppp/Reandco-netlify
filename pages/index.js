@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>Awesome Hair By RE & CO!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -15,13 +15,15 @@ export default function Home() {
         <p className="description">
           Google Buisness Review <code>pages/index.js</code>
         </p>
-        <div className="reviews-link">
-          <a href="https://www.google.com/search?q=stopandstyle_+sevenoaks&rlz=1C5CHFA_enGB1100GB1100&oq=stopandstyle_+sevenoaks&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB7SAQkxNDc4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x47df4de7e538bd5b:0x21655eb46d4fee78,3,,,,," target="_blank" rel="noopener noreferrer">
+        <div className="reviews-link" style={{ display: 'flex', alignItems: 'center', gap: '20px', justifyContent: 'center' }}>
+          <a href="https://www.google.com/search?q=stopandstyle_+sevenoaks&rlz=1C5CHFA_enGB1100GB1100&oq=stopandstyle_+sevenoaks&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB7SAQkxNDc4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x47df4de7e538bd5b:0x21655eb46d4fee78,3,,,,," target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+            <img src="/google_g_icon_download.png" alt="Google Reviews" width="24" height="24" style={{ marginRight: '8px' }} />
             Check out our Google Reviews
           </a>
           <span style={{ margin: '0 10px' }}> | </span>
-          <a href="https://www.instagram.com/stopandstyle_?igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
-            Follow us on Instagram
+          <a href="https://www.instagram.com/stopandstyle_?igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+            <img src="/instagram.png" alt="Instagram" width="24" height="24" style={{ marginRight: '8px' }} />
+            Message us on Instagram
           </a>
         </div>
       </main>
