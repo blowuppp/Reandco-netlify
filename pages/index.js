@@ -19,7 +19,11 @@ export default function Home() {
             Check out our Google Reviews
           </a>
           <span style={{ margin: '0 10px' }}> | </span>
-          <a href="https://www.instagram.com/stopandstyle_?igsh=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}>
+          <a href="https://www.instagram.com/stopandstyle_?igsh=NTc4MTIwNjQ2YQ==" 
+             target="_blank" 
+             rel="noopener noreferrer" 
+             style={{ display: 'flex', alignItems: 'center', textDecoration: 'none' }}
+             title="Let us know on insta how it went, add your best photo - thanks!">
             <img src="/instagram.png" alt="Instagram" width="24" height="24" style={{ marginRight: '8px' }} />
             Message us on Instagram
           </a>
