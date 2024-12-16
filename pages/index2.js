@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Link from 'next/link'
 
 export default function SecondPage() {
   return (
@@ -14,7 +15,12 @@ export default function SecondPage() {
       <main>
         <div className="content-wrapper">
           <Header title="Stop&Style" />
-          
+          <nav className="navigation">
+            <Link href="/" className="nav-link">
+              Back to Reviews
+            </Link>
+          </nav>
+
           <div className="about-section">
             <div className="welcome-text">
               <p>Welcome to Stop&Style, step into a barbers where every cut is a masterpiece and every style is crafted with precision. At Stop&Style we're more than just barbers - we're artists dedicated to sculpting your look to perfection.</p>

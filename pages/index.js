@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -13,7 +14,11 @@ export default function Home() {
       <main>
         <div className="content-wrapper">
           <Header title="Hello customers  Please review RE & CO" />
-          
+          <nav className="navigation">
+            <Link href="/index2" className="nav-link">
+              About Us & Contact
+            </Link>
+          </nav>
           <div className="reviews-link">
             <a href="https://www.google.com/search?q=stopandstyle_+sevenoaks&rlz=1C5CHFA_enGB1100GB1100&oq=stopandstyle_+sevenoaks&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB7SAQkxNDc4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x47df4de7e538bd5b:0x21655eb46d4fee78,3,,,,," 
                target="_blank" 
