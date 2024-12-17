@@ -65,6 +65,7 @@ main {
   width: 24px;
   height: 24px;
   margin-right: 8px;
+  object-fit: contain;
 }
 
 .divider {
@@ -186,14 +187,28 @@ code {
 }
 
 .contact-link {
-  color: #2563eb;
+  display: inline-block;
+  background-color: #e8f4ff;
+  border-radius: 25px;
+  padding: 10px 20px;
   text-decoration: none;
-  transition: color 0.2s ease;
+  color: #333;
+  transition: transform 0.2s;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 }
 
 .contact-link:hover {
-  color: #1d4ed8;
-  text-decoration: underline;
+  transform: scale(1.05);
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 @media (max-width: 640px) {
