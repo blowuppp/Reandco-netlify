@@ -9,13 +9,12 @@ export default defineStackbitConfig({
       contentDirs: ["pages"],
       models: [
         {
-          name: "Page",
+          name: "Home",
           type: "page",
-          urlPath: "/{slug}",
-          filePath: "pages/{slug}.js",
+          urlPath: "/",
+          filePath: "pages/index.js",
           fields: [
-            { name: "title", type: "string", required: true },
-            { name: "content", type: "string" }
+            { name: "title", type: "string", required: true }
           ]
         }
       ],
