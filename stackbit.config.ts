@@ -6,15 +6,16 @@ export default defineStackbitConfig({
   contentSources: [
     new GitContentSource({
       rootPath: __dirname,
-      contentDirs: ["pages"],
+      contentDirs: ["content"],
       models: [
         {
-          name: "Home",
+          name: "Page",
           type: "page",
-          urlPath: "/",
-          filePath: "pages/index.js",
+          urlPath: "/{slug}",
+          filePath: "content/pages/{slug}.json",
           fields: [
-            { name: "title", type: "string", required: true }
+            { name: "title", type: "string", required: true },
+            { name: "content", type: "string" }
           ]
         }
       ],
