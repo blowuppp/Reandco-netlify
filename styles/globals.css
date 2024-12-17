@@ -187,14 +187,15 @@ code {
 }
 
 .contact-link {
+  background-color: #3fd6eb; /* Set the lozenge color */
   display: inline-block;
-  background-color: #e8f4ff;
   border-radius: 25px;
   padding: 10px 20px;
   text-decoration: none;
   color: #333;
   transition: transform 0.2s;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
 }
 
 .contact-link:hover {
@@ -242,7 +243,7 @@ code {
   color: white;
   text-decoration: none;
   border-radius: 8px;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
   font-weight: 500;
 }
 
