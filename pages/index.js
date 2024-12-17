@@ -40,17 +40,14 @@ export default function Home() {
 
       <main>
         <div className="content-wrapper">
-          <img src="/hairlogo.png" alt="Hair Logo" style={{ display: 'block', margin: '0 auto', maxWidth: '100%', height: 'auto' }} />
           <div className="contact-box">
-            <a href="#" className="contact-link" style={{ display: 'block', textAlign: 'center' }}>
-              Hello customers
-            </a>
+          <img src="/hairlogo.png" alt="Hair Logo" style={{ display: 'block', margin: '0px auto 0', maxWidth: '100%', height: 'auto' }} />
             <a href="https://www.google.com/search?q=stopandstyle_+sevenoaks&rlz=1C5CHFA_enGB1100GB1100&oq=stopandstyle_+sevenoaks&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB7SAQkxNDc4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x47df4de7e538bd5b:0x21655eb46d4fee78,3,,,,," 
                target="_blank" 
                rel="noopener noreferrer" 
                className="contact-link">
               <img src="/google_g_icon_download.png" alt="Google Reviews" className="social-icon" style={{ width: '24px', height: '24px', marginRight: '8px' }} />
-              Our Google Reviews
+              Review us on Google
             </a>
             <a href="https://www.instagram.com/stopandstyle_?igsh=NTc4MTIwNjQ2YQ==" 
                target="_blank" 
