@@ -7,41 +7,24 @@ export default defineStackbitConfig({
     new GitContentSource({
       rootPath: __dirname,
       contentDirs: ["pages"],
-      models: {
-        page: {
+      models: [
+        {
+          name: "Page",
           type: "page",
           urlPath: "/{slug}",
-          fields: {
-            title: { type: "string", required: true },
-            content: { type: "markdown", required: true },
-          },
-        },
-        header: {
-          type: "object",
-          fields: {
-            title: { type: "string" },
-            description: { type: "string" },
-          },
-        },
-        footer: {
-          type: "object",
-          fields: {
-            text: { type: "string" },
-          },
-        },
-      },
-    }),
-  ],
-  ssgName: "nextjs",
-  nodeVersion: "18",
-  devCommand: "npm run dev",
-  buildCommand: "npm run build",
-  publishDir: ".next",
-  pageLayoutKey: "type",
-  assets: {
-    referenceType: "static",
-    staticDir: "public",
-    uploadDir: "images",
-    publicPath: "/",
-  },
+          filePath: "pages/{slug}.js",
+          fields: [
+            { name: "title", type: "string", required: true },
+            { name: "content", type: "string" }
+          ]
+        }
+      ],
+      assetsConfig: {
+        referenceType: "static",
+        staticDir: "public",
+        uploadDir: "images",
+        publicPath: "/"
+      }
+    })
+  ]
 });
