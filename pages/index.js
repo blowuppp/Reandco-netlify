@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Greatest Sunday Men's Hair By RE & CO</title>
+        <title>The best Men's Hair By RE & CO</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
