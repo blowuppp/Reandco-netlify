@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Great Hair By RE & CO</title>
+        <title>Greatest Sunday Men's Hair By RE & CO</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -47,7 +47,7 @@ export default function Home() {
                rel="noopener noreferrer" 
                className="contact-link">
               <img src="/google_g_icon_download.png" alt="Google Reviews" className="social-icon" style={{ width: '24px', height: '24px', marginRight: '8px' }} />
-              Review us on Google
+              Review us on Google!
             </a>
             <a href="https://www.instagram.com/stopandstyle_?igsh=NTc4MTIwNjQ2YQ==" 
                target="_blank" 
@@ -55,7 +55,7 @@ export default function Home() {
                className="contact-link"
                title="Let us know on 'insta' how it went, add your best photo - thanks!">
               <img src="/instagram.png" alt="Instagram" className="social-icon" />
-              <span>Message us on Insta</span>
+              <span>Message us on gram</span>
             </a>
             <Link href="/index2" className="contact-link">
               About Us & Contact
