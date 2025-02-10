@@ -34,7 +34,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Awesome Hair By RE & CO!</title>
+        <title>Splendid Hair By RE & CO!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
