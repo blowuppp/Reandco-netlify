@@ -42,12 +42,12 @@ export default function Home() {
         <div className="content-wrapper">
           <div className="contact-box">
           <img src="/hairlogo.png" alt="Hair Logo" style={{ display: 'block', margin: '0px auto 0', maxWidth: '100%', height: 'auto' }} />
-            <a href="https://www.google.com/search?q=stopandstyle_+sevenoaks&rlz=1C5CHFA_enGB1100GB1100&oq=stopandstyle_+sevenoaks&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MgYIARBFGEAyCAgCEAAYFhgeMggIAxAAGBYYHjIICAQQABgWGB7SAQkxNDc4OGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#lrd=0x47df4de7e538bd5b:0x21655eb46d4fee78,3,,,,," 
+            <a href="https://g.page/r/CXjuT220XmUhEBE/review" 
                target="_blank" 
                rel="noopener noreferrer" 
                className="contact-link">
               <img src="/google_g_icon_download.png" alt="Google Reviews" className="social-icon" style={{ width: '24px', height: '24px', marginRight: '8px' }} />
-              Review us on Google
+              Review us on Google!
             </a>
             <a href="https://www.instagram.com/stopandstyle_?igsh=NTc4MTIwNjQ2YQ==" 
                target="_blank" 
@@ -55,7 +55,7 @@ export default function Home() {
                className="contact-link"
                title="Let us know on 'insta' how it went, add your best photo - thanks!">
               <img src="/instagram.png" alt="Instagram" className="social-icon" />
-              <span>Message us on Instagram</span>
+              <span>Message us on gram</span>
             </a>
             <Link href="/index2" className="contact-link">
               About Us & Contact
