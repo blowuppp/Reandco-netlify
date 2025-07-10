@@ -3,5 +3,5 @@
   command = "npm run build"
   publish = "out"
 
-[[plugins]]
-  package = "@netlify/visual-editor"
+#[[plugins]]
+ # package = "@netlify/visual-editor"
