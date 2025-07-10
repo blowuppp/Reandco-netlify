@@ -24,7 +24,7 @@ export default function WSOB() {
   return (
     <>
       <Head>
-        <title>Gotcha! :-) ;-) :-0 &lt;3</title>
+        <title>We Gotcha! :-) ;-) :-0 &lt;3</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta httpEquiv="Cache-Control" content="public, max-age=31536000, immutable" />
       </Head>
